@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../configuracion/css/formulario_alumno.css">
+
+    <title>Formulario de Alumno</title>
+</head>
+
+<body background="../img/fondoalumno.jpg">
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Control de Asistencia</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <div class="logotipo">
+                    <img src="../img/logotipo.jpg" style="width:15%">
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="IniciarSesion.html" style="color:rgb(253, 253, 253);">Iniciar Sesion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Registrarse.html" style="color:rgb(253, 253, 253);">Registrarse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Quienes_Somos.html" style="color:rgb(253, 253, 253);">¿Quienes Somos?</a>
+                </li>
+
+    </nav>
+
+    <div class="signupFrm">
+        <form action="" class="form">
+            <center>
+                <h1 class="title">Asistencia Como Alumno</h1>
+                <div class="form-group">
+                    <label for="name"></label>
+                    <input type="text" class="form-control" placeholder="Nombre Completo" id="name" required="obligatorio">
+                </div>
+                <div class="form-group">
+                    <label for="pin"></label>
+                    <input type="text" class="form-control" placeholder="Ingresar Matricula" id="pin" maxlength="6" size="6" required="obligatorio">
+                </div>
+                <div class="form-group">
+                    <label for="text"></label>
+                    <select id="text" name="Categoria">
+                        <option value="Selecciona">Selecciona la Materia</option>
+                      <option href="" value="Materia1">Administracion de Proyectos de TI</option>
+                      <option href="" value="Materia2">Desarrollo Web Integral</option>
+                      <option href="" value="Materia3">Extraccion de Conocimiento en Base de Datos</option>
+                      <option href="" value="Materia4">Direccion de Equipos de Alto Rendimiento</option>
+                      <option href="" value="Materia5">Desarrollo para Dispositivos Inteligentes</option>
+                      <option href="" value="Materia6">Ingles</option>
+                      <option href="" value="Materia7">Tutoria</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="text"></label>
+                    <select id="text" name="Categoria">
+                        <option value="Selecciona">Selecciona el nombre del Maestro</option>
+                      <option href="" value="Materia1">Jose Manuel Chavez Garcia</option>
+                      <option href="" value="Materia2">Gerardo Arturo Pruneda Avila</option>
+                      <option href="" value="Materia3">Monica Janeth Rodriguez Reyna</option>
+                      <option href="" value="Materia4">Rosa Isela Hernandez Salinas</option>
+                      <option href="" value="Materia5">Jose Luis Olivares Cerda</option>
+                      <option href="" value="Materia6">David Concepcion Contreras Perez</option>
+                      <option href="" value="Materia7">Luisa Leticia Campos Rodriguez</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="name"></label>
+                    <select id="text" name="Categoria">
+                        <option value="Selecciona">Selecciona el Grupo y Grado</option>
+                      <option href="" value="Grupo y Grado1">9A</option>
+                      <option href="" value="Grupo y Grado2">9B</option>
+                      <option href="" value="Grupo y Grado3">9C</option>
+                      <option href="" value="Grupo y Grado4">9D</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="text"></label>
+                    <select id="text" name="Categoria">
+                        <option value="Selecciona">Selecciona la hora de Clase</option>
+                      <option href="" value="Hora1">6:00pm</option>
+                      <option href="" value="Hora2">6:40pm</option>
+                      <option href="" value="Hora3">7:20pm</option>
+                      <option href="" value="Hora4">8:00pm</option>
+                      <option href="" value="Hora5">8:40pm</option>
+                      <option href="" value="Hora6">9:20pm</option>
+                      <option href="" value="Hora7">10:00pm</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-success">Ingresar</button>
+
+        </form>
+
+
+</body>
+
+</html>
